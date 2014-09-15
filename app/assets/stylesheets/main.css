@@ -29,13 +29,17 @@ body {
 }
 
 .home-enter-button {
-	width: 100%;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	font-size: 30px;
+	font-weight: lighter;
 	color: white;
 	text-align: center;
 	position: absolute;
 	margin-top: 430px;
+	margin-left: 43vw;
+	padding: 10px 15px 5px 15px;
+	border-style: dotted;
+	border-width: 2px;
 }
 
 .home-enter-button p {

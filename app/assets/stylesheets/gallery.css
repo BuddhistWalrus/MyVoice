@@ -1,0 +1,149 @@
+body {
+	width: 100vw;
+	margin: 0;
+}
+
+
+/** NAVIGATION BAR */
+.navbar {
+	width: 100%;
+	height: 50px;
+/*	border-bottom: solid;
+	border-width: 1.5px;*/
+}
+
+.navbar-ul-right {
+	list-style: none;
+	text-decoration: none;
+	margin: 0 auto;
+	margin-right: 50px;
+	padding: 0 auto;
+}
+
+.navbar-ul-right li {
+	float: right;
+	padding: 0px 30px 0px 30px;
+	font-size: 1em;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-weight: lighter;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin: 0 5px 0 5px;
+}
+
+.navbar-ul-right li.nav-gallery-tab {
+	background-color: #333333;
+	color: white;
+}
+
+.navbar-ul-right li:hover {
+	background-color: #333333;
+	color: white;
+}
+
+.navbar-ul-left {
+	list-style: none;
+	text-decoration: none;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.navbar-ul-left li {
+	font-family: cursive;
+	font-weight: bolder;
+	color: #25A442;
+	font-size: 40px;
+	margin-left: 30px;
+	padding-top: 10px
+}
+
+
+
+/** Container */
+.container {
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+
+
+/** Gallery Body */
+.gallery-header {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	margin-top: 90px;
+	margin-left: 10px;
+	
+}
+
+hr {
+  border-top: 1px dashed #CACACA;
+  width: 100%;
+}
+
+.gallery-pic-1 {
+	background-image: url("../images/1forgottenpeople.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 495px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.gallery-pic-1-name {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 50px 0 50px;
+	padding-bottom: 10px;
+}
+
+.gallery-pic-1-photographer {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 18px;
+	position: inline;
+}
+
+.gallery-pic-1-caption {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	margin: 0 50px 0 50px;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #CACACA;
+}
+
+.gallery-pic-2 {
+	background-image: url("../images/2everyonedeservesfreedom.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 337px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.gallery-pic-2-caption {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	margin: 0 50px 0 50px;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #CACACA;
+}
+
+.gallery-pic-3 {
+	background-image: url("../images/3thegugulethulifestyle.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.gallery-pic-3-caption {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	margin: 0 50px 0 50px;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #CACACA;
+}
+
+
+
+

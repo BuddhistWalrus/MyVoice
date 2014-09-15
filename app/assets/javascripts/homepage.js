@@ -7,13 +7,14 @@ $( document ).ready(function()
       console.log(this);
         if (!slideup)
         {
-            $(this).animate({'up' : '50px'}, {duration : 400});
+            $(this).animate({up : '50px'}, {duration : 4000});
             slideup = true;
         }
         else
         {
-           $(this).animate({'down' : '300px'}, {duration: 400});
+           $(this).animate({down : '300px'}, {duration: 4000});
             slideup = false;
         }
     });
+  return false;
  });
