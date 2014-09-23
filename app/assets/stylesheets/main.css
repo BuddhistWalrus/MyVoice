@@ -22,11 +22,15 @@ body {
 	width: 100%;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	font-size: 125px;
-	color: white;
+	color: rgba(256,256,256,0.6);
 	position: absolute;
 	text-align: center;
 	margin-top: 250px;
 	z-index: 100;
+}
+
+.home-title:hover {
+	color: rgba(256,256,256,1);
 }
 
 .home-enter-button {
