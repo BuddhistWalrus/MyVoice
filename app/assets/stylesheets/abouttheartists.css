@@ -53,10 +53,10 @@ body {
 }
 
 .navbar-ul-left li {
-	font-family: cursive;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	font-weight: bolder;
 	color: #25A442;
-	font-size: 40px;
+	font-size: 50px;
 	margin-left: 30px;
 	padding-top: 10px
 }

@@ -1,20 +1,23 @@
 $( document ).ready(function()
 {
-  var slideup = false;
-  $('body').on('click', '.home-title p', function(evt)
-    {
-      evt.stopPropagation();
-      console.log(this);
-        if (!slideup)
-        {
-            $(this).animate({up : '50px'}, {duration : 4000});
-            slideup = true;
-        }
-        else
-        {
-           $(this).animate({down : '300px'}, {duration: 4000});
-            slideup = false;
-        }
+var toggled = false;
+$(function() {
+  $(".home-title").click(
+    function(e) {
+      if (toggled) {
+        $(this).animate( {'margin-top' : '+250px'} );
+        $('#first-sentence').fadeOut();
+        $('#second-sentence').fadeOut();
+        $(".hover-text").fadeOut();
+        toggled = false;
+        e.preventDefault();
+      } else {
+        $(this).animate( {'margin-top' : '-20px'} );
+        $('#first-sentence').fadeIn();
+        $('#second-sentence').fadeIn();
+        $(".hover-text").fadeIn();
+        toggled = true;
+      }
     });
-  return false;
- });
+  });
+});
