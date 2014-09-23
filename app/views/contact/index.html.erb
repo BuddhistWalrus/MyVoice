@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="../../assets/stylesheets/contactus.css">
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
 	<div class="navbar">
@@ -13,7 +13,7 @@
 			<li><%= link_to "home", root_path %></li>
 		</ul>
 		<ul class="navbar-ul-left">
-			<li>ilizwi lam</li>
+			<li>Ilizwi Lam</li>
 		</ul>
 	</div>
 	<div class="container">
@@ -21,8 +21,8 @@
 		<div class="contact-header">contact us</div>
 		<hr></hr>
 		<div class="contact-float-right">
-			<div class="contact-etafeni-header">etafeni</div>
-			<img src="../../assets/images/etafenicontact.png" alt="Etafeni Contact Information" class="etafeni-contact-info" />
+			<div class="contact-etafeni-header">Etafeni</div>
+			<%= image_tag("etafenicontact.png", id: "Etafeni Contact", :class=>'img-contact') %>
 		</div>
 		<div class="contact-float-left">
 			<div class="contact-myvoice-header">ilizwi lam</div>

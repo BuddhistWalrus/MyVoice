@@ -35,8 +35,17 @@ body {
 	margin: 0 5px 0 5px;
 }
 
+.navbar-ul-right li a {
+	list-style: none;
+	text-decoration: none;
+	color: #333333;
+}
+
 .navbar-ul-right li.nav-gallery-tab {
 	background-color: #333333;
+}
+
+.navbar-ul-right li.nav-gallery-tab a{
 	color: white;
 }
 

@@ -47,7 +47,13 @@ body {
 	margin: auto;
 }
 
-.home-enter-button p:hover {
+.home-enter-button p a {
+	list-style: none;
+	text-decoration: none;
+	color: white;
+}
+
+.home-enter-button p a:hover {
 	color: rgb(60,229,87);
 }
 
