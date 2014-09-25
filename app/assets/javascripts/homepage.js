@@ -8,14 +8,16 @@ $(function() {
         $(this).animate( {'margin-top' : '+250px'} );
         $('#first-sentence').fadeOut();
         $('#second-sentence').fadeOut();
-        $(".hover-text").fadeOut();
+        $(".enter-site").fadeOut();
+        $(".home-title").hide();
         toggled = false;
         e.preventDefault();
       } else {
         $(this).animate( {'margin-top' : '-20px'} );
         $('#first-sentence').fadeIn();
         $('#second-sentence').fadeIn();
-        $(".hover-text").fadeIn();
+        $(".home-enter-button").fadeIn();
+        $(".home-title").hide();
         toggled = true;
       }
     });
