@@ -66,7 +66,7 @@ body {
 	color: #25A442;
 	font-size: 50px;
 	margin-left: 30px;
-	padding-top: 10px
+	padding-top: 20px
 }
 
 
@@ -106,7 +106,24 @@ hr {
 
 .contact-float-right {
 	float: right;
-	margin-right: 100px;
+	width: 300px;
+}
+
+.contact-etafeni-info {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 17px;
+}
+
+.etafeni-contact-text {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 15px;
+	color: #6A6666;
+	font-weight: lighter;
+	margin-bottom: 7px;
+}
+
+.etafeni-icon {
+	margin-right: 10px;
 }
 
 .contact-myvoice-header {
@@ -119,8 +136,9 @@ hr {
 
 .contact-float-left {
 	float: left;
-	width: 550px;
+	width: 600px;
 	margin-left: 20px;
+	margin-right: 50px;
 }
 
 .contact-myvoice-body {
@@ -131,7 +149,7 @@ hr {
 	color: #333333;
 }
 
-.img-contact {
-	box-shadow: none;
+.contact-group-pic {
+	margin-bottom: 70px;
 }
 

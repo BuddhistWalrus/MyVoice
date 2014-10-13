@@ -7,10 +7,10 @@
 <body>
 	<div class="navbar">
 		<ul class="navbar-ul-right">
-			<li class="nav-contact-tab"><%= link_to "Contact Us", contact_path %></li>
-			<li><%= link_to "About the Artists", abouttheartists_path %></li>
-			<li><%= link_to "Gallery", gallery_path %></li>
-			<li><%= link_to "Home", root_path %></li>
+			<li class="nav-contact-tab"><%= link_to "contact us", contact_path %></li>
+			<li><%= link_to "about the artists", abouttheartists_path %></li>
+			<li><%= link_to "gallery", gallery_path %></li>
+			<li><%= link_to "home", root_path %></li>
 		</ul>
 		<ul class="navbar-ul-left">
 			<li>Ilizwi Lam</li>
@@ -18,15 +18,30 @@
 	</div>
 	<div class="container">
 		<hr></hr>
-		<div class="contact-header">Contact Us</div>
+		<div class="contact-header">contact us</div>
 		<hr></hr>
-		<div class="contact-float-right">
-			<div class="contact-etafeni-header">Etafeni</div>
-			<%= image_tag("etafenicontact.png", id: "Etafeni Contact", :class=>'img-contact') %>
-		</div>
 		<div class="contact-float-left">
 			<div class="contact-myvoice-header">Ilizwi Lam</div>
-			<div class="contact-myvoice-body">Thank you so much for visiting the ilizwi lam project! We really appreciate you stopping by. If you have any questions, comments, or suggestions, we would love to hear them. Also, if you want to know more about etafeni, please visit their website at <link>etafeni.org</link>. </div>
+			<div class="contact-myvoice-body">Thank you so much for visiting the Ilizwi Lam online exhibition and for using this time to engage with the inspiring and inspired work of the photographers. This project was independently managed, and could not have happened without the cooperation of Etafeni and its generous staff. <br></br>If you have any questions, comments, or suggestions, please e-mail <%= mail_to "Ilizwietafeni@gmail.com" %>.  If you would like to learn more about Etafeni, please visit their website at <%= link_to "etafeni.org", "http://www.etafeni.org" %> </div>
+			<%= image_tag("contactus.JPG", id: "Contact Us Image", height: 500, width: 550, :class =>'contact-group-pic lazy') %>
+		</div>
+		<div class="contact-float-right">
+			<div class="contact-etafeni-header">Etafeni</div>
+			<div class="contact-etafeni-info">CONTACT US</div>
+			<br></br>
+			<div class="etafeni-contact-text"><%= image_tag("locationicon.png", id: "Location Icon", height: 50, width: 15, :class =>'etafeni-icon lazy') %>Sihume Road, Nyanga, Cape Town 7750</div>
+			<div class="etafeni-contact-text"><%= image_tag("timeicon.png", id: "Time Icon", height: 50, width: 15, :class =>'etafeni-icon lazy') %><strong>Tel:</strong> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp021 386 1516</div>
+			<div class="etafeni-contact-text"><%= image_tag("faxicon.png", id: "Fax Icon", height: 50, width: 15, :class =>'etafeni-icon lazy') %><strong>Fax:</strong> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp021 386 2560</div>
+			<br>
+			<div class="etafeni-contact-text"><strong>Peter Barendse</strong> (Project Manager)</div>
+			<div class="etafeni-contact-text"><%= image_tag("emailicon.svg", id: "Email Icon", height: 50, width: 15, :class =>'etafeni-icon lazy') %><strong>Email:</strong> &nbsp&nbsp&nbsp&nbsp&nbsp <%= mail_to "peter@etafeni.org.za" %></div>
+			<br>
+			<div class="etafeni-contact-text"><strong>Barbara Miller</strong> (Development Manager)</div>
+			<div class="etafeni-contact-text"><%= image_tag("timeicon.png", id: "Time Icon", height: 50, width: 15, :class =>'etafeni-icon lazy') %><strong>Tel:</strong> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp082 890 2555</div>
+			<br>
+			<div class="etafeni-contact-text"><strong>Stephanie Kilroe</strong></div>
+			<div class="etafeni-contact-text"><%= image_tag("timeicon.png", id: "Time Icon", height: 50, width: 15, :class =>'etafeni-icon lazy') %><strong>Tel:</strong> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp082 4621 082</div>
+			<div class="etafeni-contact-text"><%= image_tag("emailicon.svg", id: "Email Icon", height: 50, width: 15, :class =>'etafeni-icon lazy') %><strong>Email:</strong> &nbsp&nbsp&nbsp&nbsp&nbsp <%= mail_to "stephanie@intermail.co.za" %></div>
 		</div>
 	</div>
 </body>
