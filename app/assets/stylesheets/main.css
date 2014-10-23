@@ -31,57 +31,36 @@ body {
 
 .home-enter-button {
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-	font-size: 24px;
+	font-size: 1.5em;
 	font-weight: lighter;
 	color: white;
-	text-align: center;
 	position: absolute;
-	margin-top: 575px;
+	margin-top: 83vh;
 	margin-left: 46vw;
 	padding: 7px 15px 5px 15px;
 	display: none;
 	border: dashed 2px;
 }
 
-.home-enter-button p {
-	margin: auto;
-}
-
-.home-enter-button p a {
+.home-enter-button a {
 	list-style: none;
 	text-decoration: none;
 	color: white;
 }
 
-.home-enter-button p a:hover {
+.home-enter-button a:hover {
 	color: rgb(60,229,87);
 }
 
 #first-sentence {
 	position: absolute;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-	font-size: 21px;
+	font-size: 1.313em;
 	font-weight: lighter;
 	color: white;
 	text-align: center;
 	margin-top: 115px;
-	padding: 5px 5px 5px 5px;
 	margin-left: 18vw;
 	margin-right: 18vw;
 	display: none;
 }
-
-#second-sentence {
-	position: absolute;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-	font-size: 21px;
-	font-weight: lighter;
-	color: white;
-	text-align: center;
-	margin-top: 340px;
-	padding: 20px 5px 5px 5px;
-	margin-left: 18vw;
-	margin-right: 18vw;
-	display: none;
-}
-

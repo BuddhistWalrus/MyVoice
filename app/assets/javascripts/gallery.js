@@ -1,6 +1,6 @@
 $( document ).ready(function()
 {
-    $(".lazy").lazyload({
+    $("img.lazy").lazyload({
     	effect : "fadeIn"
     });
 });
