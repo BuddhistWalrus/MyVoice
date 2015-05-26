@@ -1,21 +1,19 @@
 $( document ).ready(function()
 {
-var toggled = false;
 $(function() {
+  var toggled = false;
   $(".home-title").click(
     function(e) {
       if (toggled) {
         $(this).animate( {'margin-top' : '+250px'} );
-        $('#first-sentence').fadeOut();
-        $('#second-sentence').fadeOut();
+        $('.home-paragraph').fadeOut();
         $(".enter-site").fadeOut();
         $(".home-title").hide();
         toggled = false;
         e.preventDefault();
       } else {
         $(this).animate( {'margin-top' : '-20px'} );
-        $('#first-sentence').fadeIn();
-        $('#second-sentence').fadeIn();
+        $('.home-paragraph').fadeIn();
         $(".home-enter-button").fadeIn();
         $(".home-title").hide();
         toggled = true;

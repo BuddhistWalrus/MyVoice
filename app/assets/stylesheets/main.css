@@ -14,6 +14,7 @@ body {
 	z-index: 0;
 }
 
+
 .home-title {
 	width: 100%;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
@@ -29,14 +30,19 @@ body {
 	color: rgba(255,255,255,1);
 }
 
+.button-wrapper {
+	text-align: center;
+}
+
 .home-enter-button {
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	font-size: 1.5em;
 	font-weight: lighter;
 	color: white;
+	background-color: rgba(0, 0, 0, 0);
 	position: absolute;
-	margin-top: 83vh;
-	margin-left: 46vw;
+	top: 80%;
+	margin-left: -60px;
 	padding: 7px 15px 5px 15px;
 	display: none;
 	border: dashed 2px;
@@ -52,7 +58,7 @@ body {
 	color: rgb(60,229,87);
 }
 
-#first-sentence {
+/*.home-paragraph {
 	position: absolute;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	font-size: 1.313em;
@@ -63,4 +69,162 @@ body {
 	margin-left: 18vw;
 	margin-right: 18vw;
 	display: none;
+}*/
+
+/*****************************************
+			MEDIA QUERIES
+*****************************************/
+/* Larger than mobile */
+@media (min-width: 320px) {
+	
+.home-paragraph {
+	position: absolute;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 1.313em;
+	font-weight: lighter;
+	color: white;
+	text-align: center;
+	margin: 50px 1vw 0 1vw;
+	display: none;
+}
+}
+
+
+@media (min-width: 400px) {
+	.home-paragraph {
+		position: absolute;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 1.1em;
+		font-weight: lighter;
+		color: white;
+		text-align: center;
+		margin: 50px 1vw 0 1vw;
+		display: none;
+	}
+	.home-enter-button {
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 1.5em;
+		font-weight: lighter;
+		color: white;
+		background-color: rgba(0, 0, 0, 0);
+		position: absolute;
+		top: 88%;
+		margin-left: -60px;
+		padding: 7px 15px 5px 15px;
+		display: none;
+		border: dashed 2px;
+	}
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+
+@media (min-width: 550px) {	
+	.home-paragraph {
+		position: absolute;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 1.2em;
+		font-weight: lighter;
+		color: white;
+		text-align: center;
+		margin: 150px 3vw 0 3vw;
+		display: none;
+	}
+
+	.home-enter-button {
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 1.5em;
+		font-weight: lighter;
+		color: white;
+		background-color: rgba(0, 0, 0, 0);
+		position: absolute;
+		top: 85%;
+		margin-left: -60px;
+		padding: 7px 15px 5px 15px;
+		display: none;
+		border: dashed 2px;
+	}
+}
+
+/* Larger than tablet */
+
+@media (min-width: 750px) {
+	.home-paragraph {
+		position: absolute;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 1.28em;
+		font-weight: lighter;
+		color: white;
+		text-align: center;
+		margin: 150px 5vw 0 5vw;
+		display: none;
+	}
+	.home-enter-button {
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 1.5em;
+		font-weight: lighter;
+		color: white;
+		background-color: rgba(0, 0, 0, 0);
+		position: absolute;
+		top: 83%;
+		margin-left: -60px;
+		padding: 7px 15px 5px 15px;
+		display: none;
+		border: dashed 2px;
+	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	.home-paragraph {
+		position: absolute;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 1.313em;
+		font-weight: lighter;
+		color: white;
+		text-align: center;
+		margin: 130px 16vw 0 16vw;
+		display: none;
+	}
+	.home-enter-button {
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 1.5em;
+		font-weight: lighter;
+		color: white;
+		background-color: rgba(0, 0, 0, 0);
+		position: absolute;
+		top: 83%;
+		margin-left: -60px;
+		padding: 7px 15px 5px 15px;
+		display: none;
+		border: dashed 2px;
+	}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+	.home-paragraph {
+		position: absolute;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 1.313em;
+		font-weight: lighter;
+		color: white;
+		text-align: center;
+		margin: 150px 19vw 0 19vw;
+		display: none;
+		max-width: 850px;
+	}
+
+	.home-enter-button {
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 1.5em;
+		font-weight: lighter;
+		color: white;
+		background-color: rgba(0, 0, 0, 0);
+		position: absolute;
+		top: 80%;
+		margin-left: -60px;
+		padding: 7px 15px 5px 15px;
+		display: none;
+		border: dashed 2px;
+	}
 }

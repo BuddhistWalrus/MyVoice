@@ -153,3 +153,16 @@ hr {
 	margin-bottom: 70px;
 }
 
+@media (min-width: 300px) {
+	.contact-float-right {
+		float: left;
+		width: 300px;
+	}
+}
+
+@media (min-width: 1220px) {
+	.contact-float-right {
+		float: right;
+		width: 300px;
+	}
+}
