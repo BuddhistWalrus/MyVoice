@@ -8,8 +8,8 @@ body {
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-	height: 100vh;
 	width: 100vw;
+	height: 100%;
 	position: absolute;
 	z-index: 0;
 }
