@@ -14,7 +14,6 @@ body {
 	z-index: 0;
 }
 
-
 .home-title {
 	width: 100%;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
@@ -61,23 +60,85 @@ body {
 /*****************************************
 			MEDIA QUERIES
 *****************************************/
-/* Larger than mobile */
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 374px) {
 	
-.home-paragraph {
-	position: absolute;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-	font-size: 1.313em;
-	font-weight: lighter;
-	color: white;
-	text-align: center;
-	margin: 50px 1vw 0 1vw;
-	display: none;
+	.home-paragraph {
+		position: absolute;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 0.8em;
+		font-weight: lighter;
+		color: white;
+		text-align: center;
+		margin: 50px 1vw 0 1vw;
+		display: none;
+	}
+	.home-enter-button {
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 1.5em;
+		font-weight: lighter;
+		color: white;
+		background-color: rgba(0, 0, 0, 0);
+		position: absolute;
+		top: 88%;
+		margin-left: -60px;
+		padding: 7px 15px 5px 15px;
+		display: none;
+		border: dashed 2px;
+	}
+
+	.home-title {
+		width: 100%;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 70px;
+		color: rgba(255,255,255,0.6);
+		position: absolute;
+		text-align: center;
+		margin-top: 250px;
+		z-index: 100;
+	}
 }
+
+/* Larger than mobile */
+@media (min-width: 375px) and (max-width: 399px) {
+	
+	.home-paragraph {
+		position: absolute;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 0.96em;
+		font-weight: lighter;
+		color: white;
+		text-align: center;
+		margin: 50px 1vw 0 1vw;
+		display: none;
+	}
+	.home-enter-button {
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 1.5em;
+		font-weight: lighter;
+		color: white;
+		background-color: rgba(0, 0, 0, 0);
+		position: absolute;
+		top: 88%;
+		margin-left: -60px;
+		padding: 7px 15px 5px 15px;
+		display: none;
+		border: dashed 2px;
+	}
+
+	.home-title {
+		width: 100%;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 70px;
+		color: rgba(255,255,255,0.6);
+		position: absolute;
+		text-align: center;
+		margin-top: 250px;
+		z-index: 100;
+	}
 }
 
 
-@media (min-width: 400px) {
+@media (min-width: 400px) and (max-width: 549px) {
 	.home-paragraph {
 		position: absolute;
 		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
