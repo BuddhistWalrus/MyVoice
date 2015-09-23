@@ -4,62 +4,12 @@ body {
 	background-color: white;
 }
 
-
-/************************************
-           NAVIGATION BAR
-*************************************/
-
-.navbar {
-	width: 100%;
-	height: 50px;
-}
-
-.navbar-ul-right li a {
-	list-style: none;
-	text-decoration: none;
-	color: #333333;
-}
-
-.navbar-ul-right li.nav-gallery-tab {
-	background-color: #333333;
-}
-
-.navbar-ul-right li.nav-gallery-tab a{
-	color: white;
-}
-
-.navbar-ul-right li:hover a{
-	background-color: #333333;
-	color: white;
-}
-
-.navbar-ul-left {
-	float: left;
-	list-style: none;
-	text-decoration: none;
-	margin: 0 auto;
-	padding: 0 auto;
-}
-
-.navbar-ul-left li {
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-	font-weight: bolder;
-	color: #25A442;
-	font-size: 50px;
-	margin-left: 30px;
-	padding-top: 20px
-}
-
-
-
 /** Container */
 .container {
 	margin-left: 10vw;
 	margin-right: 10vw;
 	margin-top: 90px;
 }
-
-
 
 /************************************
             GALLERY HEADER
@@ -83,7 +33,6 @@ hr {
 *************************************/
 
 /** Gallery Defaults */
-
 img {
 	max-width: 100%;
 	height: auto;
@@ -120,10 +69,10 @@ img {
 }
 
 
-
 /*****************************************
 			MEDIA QUERIES
 *****************************************/
+
 /* Larger than mobile */
 @media (min-width: 320px) {
 	.gallery-pic-name {
@@ -141,26 +90,6 @@ img {
 		border-bottom: 1px dashed #CACACA;
 		/*width: 100%;*/
 		margin: 0;
-	}
-
-	.navbar-ul-right {
-		list-style: none;
-		text-decoration: none;
-		margin: 0 auto;
-		margin-right: 50px;
-		padding: 0 auto;
-		float: left;
-	}
-
-	.navbar-ul-right li {
-		float: right;
-		padding: 0px 10px 0px 10px;
-		font-size: 1em;
-		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-		font-weight: lighter;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		margin: 0 5px 0 5px;
 	}
 }
 
@@ -181,26 +110,6 @@ img {
 		border-bottom: 1px dashed #CACACA;
 		/*width: 100%;*/
 		margin: 0;
-	}
-
-	.navbar-ul-right {
-		list-style: none;
-		text-decoration: none;
-		margin: 0 auto;
-		margin-right: 50px;
-		padding: 0 auto;
-		float: left;
-	}
-
-	.navbar-ul-right li {
-		float: right;
-		padding: 0px 5px 0px 5px;
-		font-size: 0.9em;
-		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-		font-weight: lighter;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		margin: 0 5px 0 5px;
 	}
 }
 
@@ -223,26 +132,6 @@ img {
 		/*width: 100%;*/
 		margin: 0;
 	}
-
-	.navbar-ul-right {
-		list-style: none;
-		text-decoration: none;
-		margin: 0 auto;
-		margin-right: 50px;
-		padding: 0 auto;
-		float: left;
-	}
-
-	.navbar-ul-right li {
-		float: right;
-		padding: 0px 20px 0px 20px;
-		font-size: 1em;
-		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-		font-weight: lighter;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		margin: 0 5px 0 5px;
-	}
 }
 
 /* Larger than tablet */
@@ -264,26 +153,6 @@ img {
 		/*width: 100%;*/
 		margin: 0 30px 0 30px;
 	}
-
-	.navbar-ul-right {
-		list-style: none;
-		text-decoration: none;
-		margin: 0 auto;
-		margin-right: 50px;
-		padding: 0 auto;
-		float: left;
-	}
-
-	.navbar-ul-right li {
-		float: right;
-		padding: 0px 30px 0px 30px;
-		font-size: 1em;
-		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-		font-weight: lighter;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		margin: 0 5px 0 5px;
-	}
 }
 
 @media (min-width: 855px) {
@@ -302,26 +171,6 @@ img {
 		border-bottom: 1px dashed #CACACA;
 		/*width: 100%;*/
 		margin: 0 30px 0 30px;
-	}
-
-	.navbar-ul-right {
-		float: right;
-		list-style: none;
-		text-decoration: none;
-		margin: 0 auto;
-		margin-right: 50px;
-		padding: 0 auto;
-	}
-
-	.navbar-ul-right li {
-		float: right;
-		padding: 0px 30px 0px 30px;
-		font-size: 1em;
-		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-		font-weight: lighter;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		margin: 0 5px 0 5px;
 	}
 }
 
@@ -343,26 +192,6 @@ img {
 		/*width: 100%;*/
 		margin: 0 60px 0 60px;
 	}
-
-	.navbar-ul-right {
-		float: right;
-		list-style: none;
-		text-decoration: none;
-		margin: 0 auto;
-		margin-right: 50px;
-		padding: 0 auto;
-	}
-
-	.navbar-ul-right li {
-		float: right;
-		padding: 0px 30px 0px 30px;
-		font-size: 1em;
-		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-		font-weight: lighter;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		margin: 0 5px 0 5px;
-	}
 }
 
 /* Larger than Desktop HD */
@@ -382,25 +211,5 @@ img {
 		border-bottom: 1px dashed #CACACA;
 		/*width: 100%;*/
 		margin: 0 120px 0 120px;
-	}
-
-	.navbar-ul-right {
-		float: right;
-		list-style: none;
-		text-decoration: none;
-		margin: 0 auto;
-		margin-right: 50px;
-		padding: 0 auto;
-	}
-
-	.navbar-ul-right li {
-		float: right;
-		padding: 0px 30px 0px 30px;
-		font-size: 1em;
-		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-		font-weight: lighter;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		margin: 0 5px 0 5px;
 	}
 }
