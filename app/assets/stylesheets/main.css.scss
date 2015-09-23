@@ -3,12 +3,12 @@ body {
 }
 
 .home-background {
-	background: url("8Ncebakazi-shacks.jpg") no-repeat center center fixed; 
+	background: url("https://s3.amazonaws.com/illizwilam/images/8Ncebakazi-shacks.jpg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-	height: 100vh;
+	height: 100%;
 	width: 100vw;
 	position: absolute;
 	z-index: 0;
