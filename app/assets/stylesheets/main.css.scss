@@ -62,22 +62,35 @@ body {
 			MEDIA QUERIES
 *****************************************/
 /* Larger than mobile */
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 399px) {
 	
-.home-paragraph {
-	position: absolute;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-	font-size: 1.313em;
-	font-weight: lighter;
-	color: white;
-	text-align: center;
-	margin: 50px 1vw 0 1vw;
-	display: none;
-}
+	.home-paragraph {
+		position: absolute;
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 1.1em;
+		font-weight: lighter;
+		color: white;
+		text-align: center;
+		margin: 50px 1vw 0 1vw;
+		display: none;
+	}
+	.home-enter-button {
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+		font-size: 1em;
+		font-weight: lighter;
+		color: white;
+		background-color: rgba(0, 0, 0, 0);
+		position: absolute;
+		top: 88%;
+		margin-left: -60px;
+		padding: 7px 15px 5px 15px;
+		display: none;
+		border: dashed 2px;
+	}
 }
 
 
-@media (min-width: 400px) {
+@media (min-width: 400px) and (max-width: 549px) {
 	.home-paragraph {
 		position: absolute;
 		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
@@ -105,7 +118,7 @@ body {
 
 /* Larger than phablet (also point when grid becomes active) */
 
-@media (min-width: 550px) {	
+@media (min-width: 550px) and (max-width: 749px) {	
 	.home-paragraph {
 		position: absolute;
 		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
@@ -134,7 +147,7 @@ body {
 
 /* Larger than tablet */
 
-@media (min-width: 750px) {
+@media (min-width: 750px) and (max-width: 999px) {
 	.home-paragraph {
 		position: absolute;
 		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
@@ -161,7 +174,7 @@ body {
 }
 
 /* Larger than desktop */
-@media (min-width: 1000px) {
+@media (min-width: 1000px) and (max-width: 1199px) {
 	.home-paragraph {
 		position: absolute;
 		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
